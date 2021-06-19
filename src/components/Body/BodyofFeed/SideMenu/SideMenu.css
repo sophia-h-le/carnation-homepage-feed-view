@@ -1,0 +1,56 @@
+.SideMenu {
+    position: absolute;
+    width: 302px;
+    /* height: 325.25px; */
+    left: 58px;
+    top: 200px;
+}
+
+.join-communities-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.title {
+    position: absolute;
+    width: 302px;
+    height: 71px;
+    /* left: 58px; */
+    /* top: 278px; */
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Text/Title Text */
+
+    color: #333333;
+}
+
+.join-communities-title {
+    position: absolute;
+    left: 40px;
+    right: 77.92%;
+    top: 500px;
+    /* top: 61.77%; */
+    /* bottom: 34.85%; */
+    width: 302px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Text/Title Text */
+    
+    color: #333333;
+}

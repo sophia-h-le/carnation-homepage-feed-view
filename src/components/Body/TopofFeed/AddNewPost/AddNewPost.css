@@ -1,8 +1,8 @@
 .add-new-post {
     position: absolute;
-    left: 760px;
-    top: 165px;
-    width: 150px;
+    left: 750px;
+    top: 105px;
+    width: 180px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -21,7 +21,7 @@
     position: absolute;
     left: 725px;
     right: 0%;
-    top: 170px;
+    top: 110px;
     bottom: 0%;
     width: 24px;
     height: 24px;

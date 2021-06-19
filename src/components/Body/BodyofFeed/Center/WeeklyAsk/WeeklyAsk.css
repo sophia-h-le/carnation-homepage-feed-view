@@ -1,0 +1,26 @@
+.weekly-ask {
+    position: absolute;
+    /* width: 302px; */
+    /* height: 325.25px; */
+    left: 560px;
+    top: 200px;
+}
+
+.title {
+    position: absolute;
+    /* width: 302px; */
+    height: 71px;
+    /* left: 58px; */
+    /* top: 278px; */
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    /* or 89% */
+    
+    /* font-feature-settings: 'pnum' on, 'lnum' on; */
+    
+    color: #333333;
+}

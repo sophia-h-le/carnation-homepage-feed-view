@@ -1,16 +1,15 @@
 import React from 'react';
 import './Body.css';
 import TopofFeed from './TopofFeed/TopofFeed';
-import SideMenu from './SideMenu/SideMenu';
-import MainFeed from './MainFeed/MainFeed';
+import BodyofFeed from './BodyofFeed/BodyofFeed';
 
 const Body = () => {
     // console.log('Main feed')
     return (
         <div className='Body'>
             <TopofFeed/>
-            <SideMenu/>
-            <MainFeed/>
+            <BodyofFeed/>
+            
         </div>
     );
 }
