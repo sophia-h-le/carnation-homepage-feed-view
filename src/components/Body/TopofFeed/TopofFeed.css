@@ -1,0 +1,6 @@
+.top-of-feed {
+    position: absolute;
+    /* top: 120px; */
+    width: 100%;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.add-new-post {
+    position: absolute;
+    left: 760px;
+    top: 165px;
+    width: 150px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Text/Title Text */
+
+    color: #333333;
+}
+
+.add-new-post-icon {
+    position: absolute;
+    left: 725px;
+    right: 0%;
+    top: 170px;
+    bottom: 0%;
+    width: 24px;
+    height: 24px;
+}

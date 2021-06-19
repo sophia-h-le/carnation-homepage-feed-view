@@ -1,0 +1,43 @@
+.nav-links {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* Text/Title Text */
+
+    color: #333333;
+    /* list-style-type: none; */
+    text-decoration-line: none;
+}
+
+
+.nav-menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    text-align: center;
+    justify-content: end;
+    margin-right: 2rem;
+    
+    position: absolute;
+    width: 70vw;
+    right: 350px;
+    height: 24px;
+    top: 28px;
+}
+
+.nav-links:hover {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #E36968;
+}

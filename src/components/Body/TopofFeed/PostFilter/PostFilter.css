@@ -1,0 +1,45 @@
+.post-filter {
+    /* position: absolute;
+    left: 533px;
+    top: 159px; */
+}
+
+.btn-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 16px;
+
+    position: absolute;
+    width: 58px;
+    height: 44px;
+    left: 533px;
+    top: 159px;
+
+    background: #E36968;
+    border-radius: 8px;
+    border-color: #FEFEFE;
+    color: #FEFEFE;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-most-recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 600px;
+    top: 159px;
+
+    background:  #FEFEFE;
+    border-radius: 8px;
+    border-color: #E36968;
+    color: #E36968;
+    text-align: center;
+    text-decoration: none;
+}
