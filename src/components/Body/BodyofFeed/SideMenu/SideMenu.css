@@ -54,3 +54,8 @@
     
     color: #333333;
 }
+
+.SideMenu img {
+    width: 40px;
+    margin-right: 10px;
+}

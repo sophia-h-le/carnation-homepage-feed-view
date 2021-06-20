@@ -5,3 +5,56 @@
 .center {
     
 }
+
+.post-content {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    /* line-height: 32px; */
+    /* or 133% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Text/Title Text */
+    
+    color: #333333;
+    /* color: blue; */
+    
+    list-style-type: none;
+    
+    /* position: relative; */
+    top: 50px;
+    left: 0px; 
+    display: inline;
+
+}
+
+.post-author {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 22px; */
+    /* identical to box height, or 137% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #333333;
+    /* color: red; */
+}
+
+.post-time {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    /* Text/Body Text */
+    
+    color: #666666;
+    /* color: green; */
+}

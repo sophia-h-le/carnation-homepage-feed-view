@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './WeeklyAsk.css';
 import MainFeed from '../MainFeed/MainFeed';
+import specialisticon from './sample_specialist_icon.jpg';
 
 
 const WeeklyAsk = () => {
@@ -27,6 +28,7 @@ const WeeklyAsk = () => {
     const EXAMPLE_POSTS = [
         {
             author: 'DrJoSleep',
+            icon: specialisticon,
             content: 'Hi! I’m Dr. Jo and I’m a research specialist on sleep regressions. AMA!',
             // content: '',
             timestamp: 'June 15',
@@ -49,6 +51,7 @@ const WeeklyAsk = () => {
             timestamp: 'June 20'
         }
         setComments(comments.concat(commentObject))
+        setCommentText('')
     }
     const handleCommentTextChange = (event) => {
         setCommentText(event.target.value)
@@ -60,7 +63,14 @@ const WeeklyAsk = () => {
             <ul>
                 {EXAMPLE_POSTS.map((postItem, index) =>
                     <li key={index}>
-                        <div className='root-post'>{postItem.content}</div>
+                        <table>
+                            <tr>
+                                <td><img src={postItem.icon} className='avatar'></img></td>
+                                <td><div className='root-post'>{postItem.content}</div></td>
+                            </tr>
+                        </table>
+                        
+                        
                         <div className='post-info'>
                             <div className='author-name'>By {postItem.author}</div> 
                             <div className='post-time'>On {postItem.timestamp}</div>
@@ -73,14 +83,15 @@ const WeeklyAsk = () => {
                         </div>
                         {postItem.comments.map((commentItem, index) => 
                             <div key={index}>
-                                <div>{commentItem.content}</div>
-                                <div>By {commentItem.author}</div>
-                                <div>On {commentItem.timestamp}</div>
+                                <div className='comment-text'>{commentItem.content}</div>
+                                <div className='comment-author'>By {commentItem.author}</div>
+                                <div className='comment-time'>On {commentItem.timestamp}</div>
                             </div>
                         )}
                     </li>
                 )}
             </ul>
+            <br/>
             <MainFeed/>
         </div>
     );
