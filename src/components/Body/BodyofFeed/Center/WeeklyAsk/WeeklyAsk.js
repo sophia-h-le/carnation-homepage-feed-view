@@ -1,23 +1,31 @@
 import React, { useState } from 'react';
 import './WeeklyAsk.css';
 import MainFeed from '../MainFeed/MainFeed';
-import specialisticon from './sample_specialist_icon.jpg';
+import specialisticon from './images/sample_specialist_icon.jpg';
+import honganhicon from './images/bethany-beck-s042qiVMEZU-unsplash.jpg';
+import sandraicon from './images/larry-crayton-e2qz2V0SMpo-unsplash.jpg';
+import siyaicon from './images/m-t-elgassier-G_acucnTJNw-unsplash.jpg';
+import jiyoungicon from './images/20200413_185113.jpg';
+
 
 
 const WeeklyAsk = () => {
     const EXAMPLE_COMMENTS = [
         {
-            author: 'Sandy K.',
+            author: 'Sandra K.',
+            icon: sandraicon,
             content: "I'm sleep deprived but don't want to use stimulants while breastfeeding. What can I do?",
             timestamp: 'June 15'
         },
         {
             author: 'Jiyoung Eum',
+            icon: jiyoungicon,
             content: "I can't sleep if I hear my baby's voice, even when I'm exhausted. What should be my strategy?",
             timestamp: 'June 15'
         },
         {
             author: 'Siya M.',
+            icon: siyaicon,
             content: "I'm sleepy all the time after birth but still physically tired. How to I get better quality sleep?",
             timestamp: 'June 15'
         },
@@ -47,6 +55,7 @@ const WeeklyAsk = () => {
         console.log(commentText)
         const commentObject = {
             author: 'HongAnh Ng.',
+            icon: honganhicon,
             content: commentText,
             timestamp: 'June 20'
         }
@@ -83,7 +92,13 @@ const WeeklyAsk = () => {
                         </div>
                         {postItem.comments.map((commentItem, index) => 
                             <div key={index}>
-                                <div className='comment-text'>{commentItem.content}</div>
+                                <table>
+                                    <tr>
+                                        <td><img src={commentItem.icon} className='avatar'></img></td>
+                                        <td><div className='comment-text'>{commentItem.content}</div></td>
+                                    </tr>
+                                </table>
+                                
                                 <div className='comment-author'>By {commentItem.author}</div>
                                 <div className='comment-time'>On {commentItem.timestamp}</div>
                             </div>
