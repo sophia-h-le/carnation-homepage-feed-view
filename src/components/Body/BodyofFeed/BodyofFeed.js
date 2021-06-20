@@ -4,10 +4,10 @@ import Center from './Center/Center';
 
 const BodyofFeed = () => {
     return (
-        <di>
+        <div className="body-of-feed">
             <SideMenu/>
             <Center/>
-        </di>
+        </div>
     );
 }
 

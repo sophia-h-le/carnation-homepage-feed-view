@@ -38,7 +38,6 @@ const MenuItems = () => {
                     </a>
                 </li>
             )}
-            
         </ul>
     );
 }

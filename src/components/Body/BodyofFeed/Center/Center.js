@@ -4,9 +4,9 @@ import WeeklyAsk from './WeeklyAsk/WeeklyAsk';
 
 const Center = () => {
     return (
-        <div>
+        <div className='center'>
             <WeeklyAsk/>
-            <MainFeed/>
+            {/* <MainFeed/> */}
         </div>
     );
 }
