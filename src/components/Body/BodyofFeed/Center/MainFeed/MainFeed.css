@@ -58,3 +58,8 @@
     color: #666666;
     /* color: green; */
 }
+
+.avatar {
+    width: 40px;
+    display: inline-block;
+}
