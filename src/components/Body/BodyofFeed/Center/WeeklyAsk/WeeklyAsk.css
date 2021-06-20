@@ -23,4 +23,65 @@
     /* font-feature-settings: 'pnum' on, 'lnum' on; */
     
     color: #333333;
+    /* color: yellow; */
+    /* list-style-type: none; */
+}
+
+.root-post {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Text/Title Text */
+    
+    color: #333333;
+    /* color: blue; */
+    width: 400px;
+    list-style-type: none;
+    
+    position: relative;
+    top: 50px;
+    left: 0px; 
+}
+
+.author-name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #333333;
+    /* color: red; */
+    
+}
+
+.post-time {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    /* Text/Body Text */
+    
+    color: #666666;
+    /* color: green; */
+}
+
+.post-info {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    position: relative;
+    top: 60px;
 }
